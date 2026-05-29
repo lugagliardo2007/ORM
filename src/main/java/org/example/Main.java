@@ -10,9 +10,11 @@ public class Main {
 
         List<Alimento> despensa = Control.obtenerAlimentos();
         if (despensa.isEmpty()) {
-            Control.guardar(new Alimento("Pizza", 30, 15, 10, -5));
-            Control.guardar(new Alimento("Manzana", 15, 5, -5, 10));
-            Control.guardar(new Alimento("Caramelo", 5, 20, 5, -10));
+            Control.guardar(new Alimento("Ensalada", 20, 10, 5, 15));
+            Control.guardar(new Alimento("Matambre", 30, 15, 15, 10));
+            Control.guardar(new Alimento("Mantecol", 5, 20, 5, -5));
+            Control.guardar(new Alimento("Chipa", 15, 20, 5, -10));
+            Control.guardar(new Alimento("Manzana", 10, 5, 10, 10));
             despensa = Control.obtenerAlimentos();
         }
 
